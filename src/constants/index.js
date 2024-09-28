@@ -3,6 +3,7 @@ import {
   backend,
   ux,
   prototyping,
+  ai,
   javascript,
   typescript,
   html,
@@ -46,15 +47,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'AI/ML Engineer',
+    icon: ai,
   },
   {
-    title: 'Backend Developer',
+    title: 'Full Stack Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Web Developer',
     icon: ux,
   },
   {

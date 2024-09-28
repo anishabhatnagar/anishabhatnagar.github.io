@@ -1,4 +1,4 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/nyc2.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import anisha from './personal/me.png';
+import anisha from './personal/anisha.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -22,6 +22,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import ai from './icons/AI.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -72,6 +73,7 @@ export {
   resume,
   send,
   sendHover,
+  ai,
   css,
   docker,
   figma,

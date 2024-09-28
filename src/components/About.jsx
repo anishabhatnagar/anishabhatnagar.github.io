@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[0rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -36,13 +36,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        className="mt-4 text-gray-500 text-[18px] max-w-3xl leading-[30px]">
+        I am a Machine Learning and AI Engineer with a <b>Master’s in Computer Science from NYU</b>, 
+        specializing in developing AI-driven solutions for healthcare, <b>NLP, and computer vision</b>. 
+        Currently, as a <b>Researcher at NYU Courant</b>, I work on pathology extraction from MRI reports 
+        using open-source <b>LLMs and Retrieval-Augmented Generation (RAG)</b>, achieving an 86% recall. 
+        My past projects include building a web application for the NY Public Library and developing 
+        Hate-LLAMA, a multimodal model for hate speech detection.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
