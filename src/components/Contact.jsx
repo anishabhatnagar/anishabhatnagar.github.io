@@ -1,64 +1,12 @@
-import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+
+// Import icons from React Icons
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const [loading, setLoading] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setForm({ ...form, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    // sign up on emailjs.com (select the gmail service and connect your account).
-    //click on create a new template then click on save.
-    emailjs
-      .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
-        {
-          from_name: form.name,
-          to_name: 'YourName', // put your name here.
-          from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
-          message: form.message,
-        },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
-
-          setForm({
-            name: '',
-            email: '',
-            message: '',
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert('Something went wrong. Please try again.');
-        }
-      );
-  };
-
   return (
     <div
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
@@ -66,84 +14,71 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <p className={`${styles.sectionSubText} mb-4`}>Get in touch</p>
+        <h3 className={`${styles.sectionHeadTextLight} mb-8`}>Contact.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="mt-10 flex flex-col gap-6 font-poppins">
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">Your Name</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your name?"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">Your Email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email?"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">
-              Your Message
-            </span>
-            <textarea
-              rows="7"
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What's your message?"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium resize-none"
-            />
-          </label>
+        {/* Add your contact details here */}
+        <div className="mt-10 flex flex-col gap-8 font-poppins">
+          <p className="text-taupe text-[18px]">
+            Feel free to reach out to me through the following platforms:
+          </p>
 
-          <button
-            type="submit"
-            className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
-            font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[130px] sm:h-[50px] 
-            w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
-            onMouseOver={() => {
-              document
-                .querySelector('.contact-btn')
-                .setAttribute('src', sendHover);
-            }}
-            onMouseOut={() => {
-              document.querySelector('.contact-btn').setAttribute('src', send);
-            }}>
-            {loading ? 'Sending' : 'Send'}
-            <img
-              src={send}
-              alt="send"
-              className="contact-btn sm:w-[26px] sm:h-[26px] 
-              w-[23px] h-[23px] object-contain"
-            />
-          </button>
-        </form>
+          {/* <ul className="text-taupe text-[18px] leading-[30px] space-y-6">
+            <li className="flex items-center">
+              <FaEnvelope className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:youremail@example.com"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200">
+                youremail@example.com
+              </a>
+            </li> */}
+            <ul className="text-taupe text-[18px] leading-[30px] space-y-6">
+            {/* First email */}
+            <li className="flex items-center">
+              <FaEnvelope className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>Email 1:</strong>{' '}
+              <a
+                href="mailto:firstemail@example.com"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200">
+                ab10945@nyu.edu
+              </a>
+            </li>
+            {/* Second email */}
+            <li className="flex items-center">
+              <FaEnvelope className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>Email 2:</strong>{' '}
+              <a
+                href="mailto:secondemail@example.com"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200">
+                anishabhatnagar2511@gmail.com
+              </a>
+            </li>
+
+            <li className="flex items-center">
+              <FaLinkedin className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/anishabhatnagar/"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200"
+                target="_blank"
+                rel="noopener noreferrer">
+                linkedin.com/in/anishabhatnagar/
+              </a>
+            </li>
+            <li className="flex items-center">
+              <FaGithub className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>GitHub:</strong>{' '}
+              <a
+                href="https://github.com/anishabhatnagar"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200"
+                target="_blank"
+                rel="noopener noreferrer">
+                github.com/anishabhatnagar
+              </a>
+            </li>
+          </ul>
+        </div>
       </motion.div>
     </div>
   );

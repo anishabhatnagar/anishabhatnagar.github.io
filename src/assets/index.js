@@ -1,5 +1,5 @@
 import bwmap from './backgrounds/nyc2.jpeg';
-import nairobi from './backgrounds/nairobi.png';
+import nycdark from './backgrounds/nyc-dark.jpeg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
@@ -53,7 +53,7 @@ import space from './projects/space-hub.png';
 
 export {
   bwmap,
-  nairobi,
+  nycdark,
   whiteabstract,
   worldmap,
   logo,

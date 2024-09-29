@@ -36,8 +36,16 @@ export const navLinks = [
     title: 'About',
   },
   {
+    id: 'skills',
+    title: 'Skills',
+  },
+  {
     id: 'projects',
     title: 'Projects',
+  },
+  {
+    id: 'experience',
+    title: 'Experience',
   },
   {
     id: 'contact',
@@ -66,91 +74,96 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: 'Python',
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: 'PyTorch',
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: 'HuggingFace',
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: 'Sci-kit learn',
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: 'C/ C++',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: 'Java',
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: 'SQL / RDBMS',
     icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'Kubernetes',
+    icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Researcher,',
+    company_name: 'Chopra Lab NYU Courant',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2024 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Masters in Computer Science',
+    company_name: 'NYU Courant Institute of Mathematical Sciences',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Aug 2022 - May 2024',
+  },
+  {
+    title: 'Teaching Assistant',
+    company_name: 'New York University',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sept 2023 - May 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Student Researcher',
+    company_name: 'New York Public Library and NYU',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2023 - Aug 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Application Development Associate',
+    company_name: 'Accenture',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Aug 2021 - Jun 2022',
+  },
+  {
+    title: 'Bachelors in Computer Science and Engineering',
+    company_name: 'Amity University - Noida, India',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'July 2017 - May 2021',
+  },
+  {
+    title: 'Student Intern',
+    company_name: "ATT",
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Apr 2020 - May 2020',
   },
 ];
 
