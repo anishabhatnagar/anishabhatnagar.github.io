@@ -170,115 +170,114 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Hate-LLaMA',
+    description: 'An Instruction-tuned Audio-Visual Language Model for Hate Content Detection in videos',
     tags: [
       {
-        name: 'react',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'Pytorch',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Multimodal LLM',
         color: 'pink-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/anishabhatnagar/Hate-LLaMA',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Autonomous Racing',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'RNN Actor-Critic implementation of SAC algorithm for the Trackmania Game',
     tags: [
       {
-        name: 'react',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'Pytorch',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Reinforcement Learning',
         color: 'pink-text-gradient',
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/anishabhatnagar/RL-Racing',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Bilingual or Byelingual?',
+    description: 'Analysis of transformer models on Hindi-English Code-Switched text',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'PyTorch',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Bert LLM',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Natural Language Processing',
         color: 'pink-text-gradient',
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/anishabhatnagar/hi-en-senti',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Video Recaps',
+    description: `Video Summarization and Captioning using DSNet to summarise long videos into short form videos and Timesformer-GPT-2 for captioning`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Deep Learning',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Computer Vision',
         color: 'pink-text-gradient',
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/anishabhatnagar/Video-Summarization-and-Captioning',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Frame Forecast',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Using the first 11 frames of a video predict the segmentation mask of the last (22nd) frame.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'PyTorch',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Computer Vision',
         color: 'pink-text-gradient',
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/anishabhatnagar/Future-Frame-Prediction-and-Segmentation',
   },
 ];
 
