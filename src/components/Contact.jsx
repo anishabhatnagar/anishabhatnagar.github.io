@@ -4,7 +4,7 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
 // Import icons from React Icons
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaGoogle } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
         <h3 className={`${styles.sectionHeadTextLight} mb-8`}>Contact.</h3>
 
         {/* Add your contact details here */}
-        <div className="mt-10 flex flex-col gap-8 font-poppins">
+        <div className="mt-10 flex flex-col gap-8 font-Roboto tracking-normal">
           <p className="text-taupe text-[18px]">
             Feel free to reach out to me through the following platforms:
           </p>
@@ -77,6 +77,18 @@ const Contact = () => {
                 github.com/anishabhatnagar
               </a>
             </li>
+            {/* Google Scholar */}
+            <li className="flex items-center">
+              <FaGoogle className="mr-3 w-6 h-6 text-lightBlue" />
+              <strong>Google Scholar:</strong>{' '}
+              <a
+                href="https://scholar.google.com/citations?user=MoTdTKsAAAAJ&hl=en"
+                className="ml-2 text-timberWolf hover:text-lightBlue transition duration-200"
+                target="_blank"
+                rel="noopener noreferrer">
+                scholar.google.com/citations?user=MoTdTKsAAAAJ&hl=en
+              </a>
+            </li>
           </ul>
         </div>
       </motion.div>
@@ -85,3 +97,5 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, 'contact');
+
+
