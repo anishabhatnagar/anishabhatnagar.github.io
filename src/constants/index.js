@@ -1,29 +1,24 @@
 import {
-  frontend,
   backend,
-  ux,
+  coding,
   prototyping,
   ai,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  git,
-  figma,
+  python,
+  aws,
+  c_lang,
+  dbms,
+  huggingface,
+  java,
+  k8s,
+  pytorch,
+  scikitlearn,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
+  git,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -63,43 +58,43 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Web Developer',
-    icon: ux,
-  },
-  {
     title: 'Software Prototyping',
     icon: prototyping,
+  },
+  {
+    title: 'Devops Practitioner',
+    icon: coding,
   },
 ];
 
 const technologies = [
   {
     name: 'Python',
-    icon: html,
+    icon: python,
   },
   {
     name: 'PyTorch',
-    icon: css,
+    icon: pytorch,
   },
   {
     name: 'HuggingFace',
-    icon: javascript,
+    icon: huggingface,
   },
   {
     name: 'Sci-kit learn',
-    icon: typescript,
+    icon: scikitlearn,
   },
   {
     name: 'C/ C++',
-    icon: reactjs,
+    icon: c_lang,
   },
   {
     name: 'Java',
-    icon: redux,
+    icon: java,
   },
   {
     name: 'SQL / RDBMS',
-    icon: tailwind,
+    icon: dbms,
   },
   {
     name: 'git',
@@ -111,7 +106,11 @@ const technologies = [
   },
   {
     name: 'Kubernetes',
-    icon: figma,
+    icon: k8s,
+  },
+  {
+    name: 'AWS',
+    icon: aws,
   },
 ];
 

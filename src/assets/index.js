@@ -9,7 +9,7 @@ import logotext from './logo/logo-text-black.png';
 import anisha from './personal/anisha.jpeg';
 
 import backend from './icons/backend.png';
-import ux from './icons/ux.png';
+import coding from './icons/coding.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -24,20 +24,17 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import ai from './icons/AI.png';
 
-import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import python from './tech/python.png';
+import aws from './tech/aws.png';
+import c_lang from './tech/c++.png';
+import dbms from './tech/DBMS.png';
+import huggingface from './tech/huggingface.png';
+import java from './tech/java.png';
+import k8s from './tech/k8s.png';
+import pytorch from './tech/pytorch.png';
+import scikitlearn from './tech/scikitlearn.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -60,7 +57,7 @@ export {
   logotext,
   anisha,
   backend,
-  ux,
+  coding,
   frontend,
   prototyping,
   github,
@@ -74,20 +71,17 @@ export {
   send,
   sendHover,
   ai,
-  css,
+  python,
+  aws,
+  c_lang,
+  dbms,
+  huggingface,
+  java,
+  k8s,
+  pytorch,
+  scikitlearn,
   docker,
-  figma,
   git,
-  graphql,
-  html,
-  javascript,
-  nodejs,
-  postgresql,
-  rubyrails,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
   komikult,
   leaderboard,
   math,
