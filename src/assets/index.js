@@ -36,17 +36,18 @@ import k8s from './tech/k8s.png';
 import pytorch from './tech/pytorch.png';
 import scikitlearn from './tech/scikitlearn.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import accenture from './company/accenture.png';
+import amity from './company/amity.png';
+import atnt from './company/atnt.png';
+import graduation from './company/graduation2.png';
+import nypl from './company/nypl.png';
+import nyu from './company/nyu.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import hatellama from './projects/hate-llama-icon.png';
+import racing from './projects/racing.png';
+import byelingual from './projects/byelingual.png';
+import videosum from './projects/videosum.png';
+import framepred from './projects/framepred.png';
 
 export {
   bwmap,
@@ -82,14 +83,15 @@ export {
   scikitlearn,
   docker,
   git,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  hatellama,
+  racing,
+  byelingual,
+  videosum,
+  framepred,
+  accenture,
+  amity,
+  atnt,
+  graduation,
+  nypl,
+  nyu,
 };
