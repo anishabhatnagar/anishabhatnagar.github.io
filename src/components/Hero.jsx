@@ -25,7 +25,7 @@ const Hero = () => {
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto
           sm:bg-hero bg-hero-mobile overflow-hidden">
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
+          className={`absolute inset-0 sm:top-[150px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
@@ -88,10 +88,13 @@ const Hero = () => {
             // className="rounded-full object-cover 
             //   h-[30vh] sm:h-[50vh] md:h-[55vh] lg:h-[65vh] xl:h-[75vh] 
             //   w-auto max-w-[50vw] sm:max-w-[40vw] md:max-w-[30vw] lg:max-w-[25vw]"
-            className="absolute bottom-[40px] ml-[36vw]  
+            // className="absolute bottom-[40px] ml-[36vw]  
+            //   lg:ml-[61vw] md:ml-[46vw] xmd:ml-[46vw] 2xl:ml-[69vw]
+            //   sm:h-[75vh] md:h-[55vh] xl:h-[65vh]
+            //   rounded-full object-cover"
+            className="rounded-full object-cover h-[30vh]
               lg:ml-[61vw] md:ml-[46vw] xmd:ml-[46vw] 2xl:ml-[69vw]
-              sm:h-[75vh] md:h-[55vh] xl:h-[65vh]
-              rounded-full object-cover"
+              sm:h-[75vh] md:h-[55vh] xl:h-[65vh]"
             src={anisha}
             alt="Anisha"
           />
