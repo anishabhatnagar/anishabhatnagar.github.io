@@ -30,7 +30,7 @@ import python from './tech/python.png';
 import aws from './tech/aws.png';
 import c_lang from './tech/c++.png';
 import dbms from './tech/DBMS.png';
-import huggingface from './tech/huggingface.png';
+import huggingface from './tech/huggingFace.png';
 import java from './tech/java.png';
 import k8s from './tech/k8s.png';
 import pytorch from './tech/pytorch.png';
