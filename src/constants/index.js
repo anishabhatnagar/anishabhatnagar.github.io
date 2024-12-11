@@ -118,8 +118,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Research Scientist,',
-    company_name: 'Chopra Lab NYU Courant',
+    title: 'Research Scientist',
+    company_name: 'Chopra Lab @ NYU Courant',
     icon: nyu,
     iconBg: '#333333',
     date: 'Aug 2024 - Present',
